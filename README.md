@@ -5,9 +5,11 @@ Realization of quicksort algorithm with means of MPI library.
 
 Input data:
 Text file with int numbers, separated with space.
+(There is a sample file with 100 random int numbers in a repo. You may use it to test the program.)
 
-NB:
-This algorithm is not very effective. The code is written mostly in educational purposes.
+NOTE:
+This algorithm is not very effective. There is a report.excel, which shows how quick the algorithm is on different samples. As you can see, it is not very rewarding to write a parallel quicksort this way.
+The code is written mostly in educational purposes by a programming noob.
 If you are interested in a better realization of parallel quicksort, take a look at MPI-Quicksort-Hypercubes project.
 
 A simplified scheme of a program:
